@@ -1,0 +1,11 @@
+framework module another_flushbar {
+  umbrella header "another_flushbar-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module another_flushbar.Swift {
+    header "another_flushbar-Swift.h"
+    requires objc
+}
